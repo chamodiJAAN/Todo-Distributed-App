@@ -48,32 +48,32 @@ cd Todo-Distributed-App
 
 This project demonstrates several key distributed systems concepts:
 
-1.Caching Strategy
+1.Caching Strategy -
 Redis cache stores todo for 10 seconds
 Reduces Database load for read-heavy operations
 Cache invalidation on write operations
 
-2.Massage Queues
+2.Massage Queues -
 BullMQ for asynchronous task processing
 Decouples request handling from background work
 Audit logging performed asynchronously
 
-3.Fault Tolerance
+3.Fault Tolerance -
 Health check endpoint for service monitoring
 Graceful error handling with rollback
 Retry logic for failed operations
 
-4.Containerization
+4.Containerization -
 Docker for consistent environments
 Docker Compose for multi-service orchestration
 Easy scaling and deployment
 
-5.Optimistic Concurrency
+5.Optimistic Concurrency -
 Immediate UI updates
 Rollback on failure
 Better user experience
 
-6.Service Discovery
+6.Service Discovery -
 Docker networking for service communication
 Environment variables for configuration
 Clean separation of concerns
