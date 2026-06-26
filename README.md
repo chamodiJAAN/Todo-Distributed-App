@@ -63,17 +63,17 @@ Health check endpoint for service monitoring
 Graceful error handling with rollback
 Retry logic for failed operations
 
-4. Containerization
+4.Containerization
 Docker for consistent environments
 Docker Compose for multi-service orchestration
 Easy scaling and deployment
 
-5. Optimistic Concurrency
+5.Optimistic Concurrency
 Immediate UI updates
 Rollback on failure
 Better user experience
 
-6. Service Discovery
+6.Service Discovery
 Docker networking for service communication
 Environment variables for configuration
 Clean separation of concerns
