@@ -42,3 +42,59 @@ docker-compose up --build
 ```bash
 git clone https://github.com/chamodiJAAN/Todo-Distributed-App.git
 cd Todo-Distributed-App
+```
+
+🌐 Distributed Systems Concepts
+
+This project demonstrates several key distributed systems concepts:
+
+1.Caching Strategy
+Redis cache stores todo for 10 seconds
+Reduces Database load for read-heavy operations
+Cache invalidation on write operations
+
+2.Massage Queues
+BullMQ for asynchronous task processing
+Decouples request handling from background work
+Audit logging performed asynchronously
+
+3.Fault Tolerance
+Health check endpoint for service monitoring
+Graceful error handling with rollback
+Retry logic for failed operations
+
+4. Containerization
+Docker for consistent environments
+Docker Compose for multi-service orchestration
+Easy scaling and deployment
+
+5. Optimistic Concurrency
+Immediate UI updates
+Rollback on failure
+Better user experience
+
+6. Service Discovery
+Docker networking for service communication
+Environment variables for configuration
+Clean separation of concerns
+
+🧪 Testing
+bash
+```Frontend tests
+cd frontend
+npm test
+```
+
+```API testing (using curl)
+curl http://localhost:5000/health
+curl http://localhost:5000/api/todos
+```
+
+🙏 Acknowledgments
+React for the awesome UI library
+Docker for containerization
+All open-source libraries used
+
+Project Link: Todo-Distributed-App
+
+
